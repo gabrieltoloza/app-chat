@@ -1,0 +1,24 @@
+/* Este index.css puede ser cargado desde una plantilla de Handlebars,
+aprovechando el servicio de contenidos estáticos que también tenemos habilitado en la app */
+
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 60%;
+}
+
+.message.own {
+    background-color: #d1e7dd; /* Color de fondo para mensajes propios */
+    color: blue; /* Color del texto para mensajes propios */
+    align-self: flex-end;
+    text-align: right;
+}
+
+.message.other {
+    background-color: #f8d7da; /* Color de fondo para mensajes de otros */
+    color: red; /* Color del texto para mensajes de otros */
+    align-self: flex-start;
+    text-align: left;
+}
